@@ -1,0 +1,54 @@
+body{
+  color:black;
+}
+
+
+
+h1{
+  color: red;
+  background: #34cbd3;
+}
+
+h1:hover{
+background: #000000;
+color: #ffffff;
+
+}
+
+#main-text{
+  color:green;
+}
+p{
+  color:#000000;
+}
+
+.box{
+  background: rgba (51, 93)
+}
+
+.image{
+  background-image: url("../images/Jeff_Goldblum_Deauville_2017.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+width:1000px;
+height:1000px;
+}
+
+
+
+.hello{color: orange;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+body {background: #efefef;
+}
+
+.font{font-family: 'Sriracha', cursive;}
+
+.font:hover{
+  background: rgba( 52, 203, 211, .3)
+}
