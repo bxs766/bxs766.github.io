@@ -52,3 +52,13 @@ body {background: #efefef;
 .font:hover{
   background: rgba( 52, 203, 211, .3)
 }
+
+.underline{
+  text-decoration: none;
+  color: green;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
