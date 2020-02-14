@@ -1,0 +1,43 @@
+a{
+  text-decoration: none;
+  color: red;
+}
+
+h1{
+color: blue;
+font-family: sans-serif;
+}
+
+h2{
+color: #293BEE
+}
+
+.hello{
+  color: green;
+}
+
+.hello:hover{
+  color: red;
+}
+
+.movies{
+  font-family: 'Sriracha', cursive;
+  color: purple;
+}
+
+.sandwiches{
+  font-family: 'Roboto', sans-serif;
+  color: green;
+}
+
+.rewrites{
+  color: blue;
+}
+
+.voice{
+  color: red;
+}
+
+img:hover{
+  filter: blur(4px)
+}
