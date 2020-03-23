@@ -1,0 +1,85 @@
+
+
+
+.main-wrapper{
+
+display: grid;
+grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr
+grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr
+
+
+
+
+}
+
+.title{
+background-color: green;
+grid-row: 1/2;
+
+
+}
+
+.April{
+
+grid-row: 2/4;
+background-color: yellow;
+
+}
+
+.May{
+grid-row: 4/6;
+  background-color: pink;
+}
+
+.June{
+grid-row: 6/8;
+  background-color: orange;
+}
+
+.foot{
+grid-row: 10/15;
+
+}
+
+@media only screen and (min-width: 480px) {
+.main-wrapper{
+display: grid;
+grid-template-columns: 1fr;
+
+}
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+.main-wrapper{
+  display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+
+
+}
+
+
+@media only screen and (min-width: 992px) {
+.main-wrapper{
+display: grid;
+grid-template-columns: 1fr 1fr  1fr;
+
+}
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+.main-wrapper{
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+
+
+}
