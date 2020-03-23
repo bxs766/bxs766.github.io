@@ -60,5 +60,54 @@ body {background: #efefef;
 
 a{
   text-decoration: none;
-  color: red;
+  color: red !important;
+}
+
+.info .underline{
+  color: blue;
+}
+
+/* cascading notes */
+
+/* css listens to the most specific css command at any given time. It takes the one on the bottom of a page if everything is equal, but otherwise looks to the most amount of indicators and has that command supersede the others. */
+
+/* classes override type and elements tags such as p tags. ids override classes. */
+
+/* adding "!important" next to a color such  as "color:blue !important" overrides everything. */
+
+.main-wrapper{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 200px repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill,minmax(25%, 1fr))
+  grid-template-columns: repeat(12, minmax(0, 1fr))
+}
+
+header{
+  grid-column: 8/13;
+}
+
+.second nav{
+  grid-column: 8/13;
+}
+
+.third nav{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 200px repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill,minmax(25%, 1fr))
+}
+
+.fourth nav{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 200px repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill,minmax(25%, 1fr))
+  row-gap: 50px;
 }
