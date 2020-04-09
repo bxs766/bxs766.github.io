@@ -1,0 +1,107 @@
+.hide{
+display:none;
+}
+
+h1{
+  color: green;
+  font-family: monospace;
+}
+
+.step1{
+  background-color: yellow;
+padding:2em;
+border-radius: 12px;
+ border-color: red;
+}
+
+.bg{
+  background-color: green;
+  width: 50%;
+  height: 50%;
+}
+
+main{
+  width:80%;
+  margin:0 auto;
+  padding:2em;
+  background color: #efefef
+}
+
+body{
+  background-color: #00BFFF
+}
+
+.parks{
+  color: red;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.intro{
+  color: yellow;
+  font-size: 35px;
+}
+
+h2{
+  color: blue;
+  font-size:40px;
+}
+
+.Rides{
+  color: blue;
+  font-size: 25px;
+  width: 95%;
+  font-family: fantasy;
+}
+
+.step2{
+  background-color: yellow;
+padding:2em;
+border-radius: 12px;
+border-color: red;
+}
+
+h3{
+  color: yellow;
+  font-size: 40px;
+}
+
+h5{
+  color: red;
+  font-size: 25px;
+}
+
+.step3{
+  background-color:yellow;
+  padding: 2em;
+  border-radius: 12px;
+  border-color: red;
+}
+
+.lower-priority{
+  color: yellow;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.step4{
+  background-color :yellow;
+  padding: 2em;
+  border-radius: 12px;
+  border-color: red;
+}
+
+h4{
+  color: yellow;
+  font-size: 35px;
+}
+
+h6{
+  color: blue;
+  font-size: 25px;
+}
+
+.done{
+  color: red;
+  font-size: 20px;
+}
