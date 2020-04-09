@@ -1,0 +1,92 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Your Disney Vacation </title>
+    <link rel="stylesheet" href="css/disney.css">
+  </head>
+  <body>
+    <main>
+      <header>
+    <h1> Perfect <span>Disney</span> Vacation <br> </h1>
+      </header>
+      <div class="parks">All Parks Included!</div>
+      <section class="intro">
+        <p> Want the perfect getaway? </p>
+        <p> Wanna get on all the rides without waiting in line? </p>
+        <p> Then listen to me! </p>
+      <button class="step1" type="button" name="start">Start</button>
+      </section>
+      <section class="Rides hide">
+        <h2>The Best Rides</h2>
+        <img src="images/download.jpg" alt="Castle">
+        <ul>
+          <li>Tower of Terror</li>
+          <li>Star Wars: Rise of the Resistance</li>
+          <li>Rock and Rollercoaster</li>
+          <li>Space Mountain</li>
+          <li>Spaceship Earth</li>
+          <li>Avatar: Flight of Passage</li>
+          <li>Expedition Everest</li>
+          <li>Splash Mountain<li>
+          <li>Carousel of Progress</li>
+          <li>Pirates of the Caribbean</li>
+        </ul>
+        <p class="ing">How to avoid lines</p>
+        <button class="step2" type="button" name="next">Next</button>
+      </section>
+      <section class="no-lines hide">
+        <h2>Get an early start</h2>
+        <p>It's absolutely essential to get to the park when it opens and immediately get in line for all of the best rides you couldn't secure a fastpass for.</p>
+        <img src="images/MK-Rope-Drop.jpg"> <br>
+        <button class="step3" type="button" name="next">Next</button>
+      </section>
+      <section class="lower-priority hide">
+        <h2>Hit lower priority rides later in the day</h2>
+        <p>Afternoons can also be a great time to watch shows or parades. Lines tend to peak arounnd 4 or 5.</p>
+        <img src="images/hqdefault.jpg" alt="show">
+      </section>
+      <section class="done hide">
+        <h2>That's it!</h2>
+        <p>That's how you make the most of your Disney vacation!</p>
+        <img src="images/disepcotearth.jpg" alt="epcot">
+      </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/nav1.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".step1").click(function(){
+        $(".intro").hide(1000);
+        $(".no-lines").show(1000);
+      });
+      $(".step2").click(function(){
+        $(".no-lines").slideUp();
+        $(".Rides").slideDown();
+      });
+      $(".ing").on({
+        mouseenter: function(){
+          $(".Rides img").fadeIn(1000);
+        },
+        mouseleave: function(){
+          $(".Rides img").fadeOut(1000);
+        }
+    });
+
+    $(".step3").click(function(){}
+$(".no-lines").remove();
+$(".lower-priority").css("display", "block");
+  });
+
+  $(".step4").click(function(){
+    $(".cook").slideUp("slow");
+    $(".serve").show();
+    $(".serve").append("<p class='final'> Have a great trip!</p>");
+  });
+
+});
+    </script>
+
+  </body>
+</html>
