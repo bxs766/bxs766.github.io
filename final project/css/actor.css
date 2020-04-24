@@ -1,0 +1,40 @@
+.main-wrapper{
+
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+}
+
+.title{
+  text-align: center;
+  background-color: green;
+  grid-column: 1/6;
+  grid-row: 1/2;
+}
+
+.top{
+  grid-column: 1/6;
+  grid-row: 2/3;
+}
+
+.credits{
+  grid-column: 1/6;
+  grid-row: 3/4;
+}
+
+
+@media only screen and (min-width: 480px) {
+.main-wrapper{
+grid-template-columns: 1fr;}
+
+h3{
+  font-size: 20;
+
+
+}}
+
+@media only screen and (min-width: 768px) {
+.main-wrapper{
+grid-template-columns: 1fr 1fr;
+
+}}
