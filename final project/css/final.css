@@ -1,0 +1,76 @@
+
+
+.main-wrapper{
+display: grid;
+grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+}
+
+.title{
+  text-align: center;
+  background-color: green;
+  grid-column: 1/7;
+  grid-row: 1/2;
+}
+
+.image-1{
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.image-2{
+  grid-column: 4/7;
+  grid-row: 1/2;
+}
+
+.freshman{
+  background-color: yellow;
+grid-row: 2/3;
+grid-column: 1/2;
+}
+
+.sophomore{
+  background-color: red;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.quarantine{
+  background-color: yellow;
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+.writer{
+  background-color: red;
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+
+.director{
+  background-color: yellow;
+  grid-row: 2/3;
+  grid-column: 5/6;
+}
+
+.actor{
+  background-color: red;
+  grid-row: 2/3;
+  grid-column: 6/7;
+}
+
+@media only screen and (min-width: 480px) {
+.main-wrapper{
+grid-template-columns: 1fr;}
+
+h3{
+  font-size: 20;
+
+
+}}
+
+@media only screen and (min-width: 768px) {
+.main-wrapper{
+grid-template-columns: 1fr 1fr;
+
+}}
