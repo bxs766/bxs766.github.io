@@ -1,12 +1,9 @@
 
 
-.main-wrapper{
-display: grid;
-grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
-grid-template-rows: 1fr, 1fr, 1fr, 1fr;
-}
-
 .title{
+display: grid;
+grid-template-columns: 1fr; 1fr; 1fr; 1fr; 1fr; 1fr;
+grid-template-rows: 1fr; 1fr; 1fr; 1fr;
   text-align: center;
   background-color: green;
   grid-column: 1/7;
