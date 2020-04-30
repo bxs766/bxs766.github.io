@@ -79,4 +79,22 @@ grid-template-columns: 1fr 1fr;
 .menu{
   grid-template-columns: repeat(6, 1fr);
 }
+
+.freshman{
+  background-color: yellow;
+grid-row: 2/3;
+
+}
+
+.sophomore{
+  background-color: red;
+  grid-row: 2/3;
+
+}
+
+.quarantine{
+  background-color: yellow;
+grid-row: 2/3;
+
+}
 }
