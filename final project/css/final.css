@@ -1,7 +1,7 @@
 .menu{
   display: grid;
-  grid-template-columns: repeat (3, 1fr)
-
+  grid-template-columns: repeat (3, 1fr);
+grid-template-rows: 1fr;
 
 }
 
@@ -94,12 +94,14 @@ grid-row: 1/2;
 .writer{
   background-color: red;
    grid-row: 2/3;
+   
 
 }
 
 .director{
   background-color: yellow;
    grid-row: 2/3;
+
 
 }
 
@@ -117,7 +119,10 @@ h3{
   font-size: 20;
 
 
-}}
+}
+
+
+}
 
 @media only screen and (min-width: 768px) {
 .main-wrapper{
